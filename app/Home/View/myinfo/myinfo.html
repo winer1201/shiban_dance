@@ -1,0 +1,51 @@
+<layout name="Layout/content_nav" />
+		 {:loadfile('__PUBLIC__/js/myinfo/myinfo','js')}
+		 {:loadfile('__PUBLIC__/css/myinfo/myinfo','css')}
+		<div id="info_wrap">
+			<label id="load">
+			</label>
+			<p id="login" onclick="javascript:window.location.href='../user/login'">请先登录</p>
+			<div class="info">
+				<span id="nick"></span>
+				<a href="../myinfo/set"><i></i></a>
+				<p id="sign"></p>
+			</div>
+		</div>
+		<div class="main">
+			<div class="sure" style="background-image:url(__PUBLIC__/img/myinfo/tishi.png)">
+				<p>请先加入舞队</p>
+				<span id="sure_btn">确定</span>
+				<span id="esc">取消</span>
+			</div>
+			<div class="wrap clear">
+				<dl>
+					<dt><a href="../myinfo/index"><img src="__PUBLIC__/img/myinfo/index.png" alt="" /></a></dt>
+					<dd>我的主页</dd>
+				</dl>
+				<dl id="mydance">
+					<dt><a id="tiao"><img src="__PUBLIC__/img/myinfo/sign1.png" alt="" /></a></dt>
+					<dd>我的舞队</dd>
+				</dl>
+				<dl>
+					<dt><a id="works"><img src="__PUBLIC__/img/myinfo/dance.png" alt="" /></a></dt>
+					<dd>舞队作品</dd>
+				</dl>
+				<dl>
+					<dt><a id="mywork" href="../MyDance/works?worktype=0"><img src="__PUBLIC__/img/myinfo/myzuo.png" alt="" /></a></dt>
+					<dd>我的作品</dd>
+				</dl>
+				<dl>
+					<dt id="message"><a href="../myinfo/message"><img src="__PUBLIC__/img/myinfo/message.png" alt="" /></a><i>1</i></dt>
+					<dd>我的消息</dd>
+				</dl>
+				<dl>
+					<dt><a href="../about/about"><img src="__PUBLIC__/img/myinfo/about.png" alt="" /></a></dt>
+					<dd>关于我们</dd>
+				</dl>
+				<dl id="exit" >
+					<dt><a><img src="__PUBLIC__/img/myinfo/exit.png" alt="" /></a></dt>
+					<dd>退出登录</dd>
+				</dl>
+			</div>
+		</div>
+		

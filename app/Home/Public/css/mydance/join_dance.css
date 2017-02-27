@@ -1,0 +1,24 @@
+img {
+  height: 7.9rem; }
+
+dl {
+  width: 5.6rem;
+  margin: 0.24rem auto; }
+  dl dt {
+    margin-bottom: 0.56rem; }
+  dl dd {
+    display: block;
+    width: 5.62rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    text-align: center;
+    font-size: 0.34rem;
+    margin-bottom: 0.2rem; }
+    dl dd a {
+      color: #fff; }
+  dl #shen {
+    background: url(/app/Home/Public/img/join_dance/btn1.png) no-repeat;
+    background-size: 100% 100%; }
+  dl #create {
+    background: url(/app/Home/Public/img/join_dance/btn2.png) no-repeat;
+    background-size: 100% 100%; }

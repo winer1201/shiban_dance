@@ -1,0 +1,12 @@
+<layout name="Layout/content" />
+        {:loadfile('__PUBLIC__/libs/zepto.min','js')}
+        {:loadfile('__PUBLIC__/libs/zepto.cutphoto','js')}
+		{:loadfile('__PUBLIC__/js/myinfo/uploadhead','js')}
+		<!--{:loadfile('__PUBLIC__/css/myinfo/input','css')}-->
+        {:loadfile('__PUBLIC__/css/tp.dialog','css')}
+<div id="main">
+    <div id="container_node"></div>
+    <input id="browseFile" style="font-size:0.5rem;color:antiquewhite; width:3rem; height: 0.8rem;background-color:#029be9;border:0; -moz-border-radius: 0.1rem;-webkit-border-radius: 0.1rem;margin-top:1rem;margin-left:0.5rem;" type="button" value="选择图片">
+    <input id="inputImage" type="file" accept="image/*" style="display:none;" />
+    <input id="saveimg" style="font-size:0.5rem;color:antiquewhite;  width:3rem; height: 0.8rem;background-color:#029be9;border:0;-moz-border-radius: 0.1rem;-webkit-border-radius: 0.1rem;margin-top:1rem;margin-left:0.3rem;" type="button" value="提交">
+</div>

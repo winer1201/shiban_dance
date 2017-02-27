@@ -1,0 +1,51 @@
+#wrap{
+	padding:0 0 0 0.32rem;
+}
+.day h2{
+	height:0.8rem;
+	line-height:0.8rem;
+	position:relative;
+	font-size:0.34rem;
+	color:#272727;
+	padding-left:0.18rem;
+}
+.day h2 i{
+	position: absolute;
+	display: block;
+	height:0.4rem;
+	width:0.08rem;
+	background:#03b4ed;
+	left:0;
+	top:0.2rem;
+}
+dl{
+	width:3.32rem;
+	margin-right:0.2rem;
+	margin-bottom: 0.06rem;
+	font-size:0.3rem;
+	line-height:0.5rem;
+	height:3.68rem;
+	float:left;
+	position: relative;
+}
+dl dt{
+	width:3.32rem;
+	height:2.54rem;
+}
+dl img{
+	width:3.32rem;
+	height:2.54rem;
+}
+.loadlist{
+	min-height: 3.68rem;
+}
+dl i{
+	position: absolute;
+	display: block;
+	height:0.66rem;
+	width:0.66rem;
+	left:1.33rem;
+	top:0.94rem;
+	background-size:100% 100%;
+	border-radius: 50%;
+}

@@ -1,0 +1,52 @@
+<layout name="Layout/content" />
+		{:loadfile('__PUBLIC__/css/video/uploadpage','css')}
+        {:loadfile('__PUBLIC__/css/tp.dialog','css')}
+		{:loadfile('__PUBLIC__/js/video/uploadpage','js')}
+<div class="header" id="upload1">
+    <div class="container1">
+        <div id="dbgimg"></div>
+        <div id="duploadteam" style="display:none;" >
+            <font style="font-size:0.5rem;color:antiquewhite;">上传舞队作品</font>
+        </div>
+        <div id="duploadperson">
+            <font style="font-size:0.5rem;color:antiquewhite;">上传个人作品</font>
+        </div>
+        <input type="file" name="bfile" accept="video/*" id="bfile" style="display:none;" />
+    </div>
+</div>
+
+<div class="header" id="upload2">
+    <div id="dvcontainer">
+        <div id="dvideo">
+            <!-- x5-video-player-fullscreen="true" -->
+            <video id="video" controls webkit-playsinline="true" x-webkit-airplay="true"  playsinline="true" x5-video-player-type="h5" ></video>
+        </div>
+        <div id="dhideimg" style="position:absolute;"></div>
+    </div>
+    <div class="container2">
+        <div id="dposter">
+        </div>
+        <div id="dname">
+            <textarea id="vname" placeholder="请输入作品名称" maxlength="30" autofocus="autofocus" wrap="hard"></textarea>
+        </div>
+        
+        <div class="progress">
+            <div class="progress-container"><div class="progress-bar"></div></div>
+            <div class="progress-percent"></div>
+        </div>
+
+        <div id="dpublish">
+            <font style="font-size:0.5rem;color:antiquewhite;">发布</font>
+        </div>
+        <div id="dgetposter">
+            <font style="font-size:0.5rem;color:antiquewhite;">获取海报图</font>
+        </div>
+    </div>
+</div>
+
+<div class="header" id="upload2" style="display:none;">
+
+</div>
+
+
+

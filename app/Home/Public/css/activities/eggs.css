@@ -1,0 +1,45 @@
+.wrap {
+  background: url(/app/Home/Public/img/activities/eggs/bg.png) no-repeat;
+  width: 7.5rem;
+  height: 12.06rem;
+  background-size: 100% 100%;
+  padding-top: 0.18rem; }
+  .wrap .header {
+    height: 1.22rem;
+    width: 6.65rem;
+    background: url(/app/Home/Public/img/activities/eggs/artzi.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto; }
+  .wrap #num {
+    font-size: 0.42rem; }
+  .wrap .sign {
+    line-height: 0.54rem;
+    margin-top: 0.31rem;
+    font-size: 0.36rem;
+    color: #272727;
+    padding-left: 0.425rem;
+    margin-bottom: 0.12rem; }
+  .wrap .rule {
+    height: 0.58rem;
+    line-height: 0.58rem;
+    font-size: 0.4rem;
+    color: #c50200;
+    padding-left: 0.425rem; }
+  .wrap .info {
+    line-height: 0.46rem;
+    padding: 0 0.425rem;
+    font-size: 0.36rem;
+    color: #272727;
+    margin-top: 0.03rem; }
+  .wrap i {
+    margin-bottom: 0.15rem;
+    display: block; }
+  .wrap span {
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    height: 0.36rem;
+    color: #272727; }
+  .wrap .tele {
+    margin-top: 0.25rem;
+    font-size: 0.3rem;
+    padding-left: 0.425rem; }

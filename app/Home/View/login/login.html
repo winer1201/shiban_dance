@@ -1,0 +1,31 @@
+<layout name="Layout/content" />
+		 {:loadfile('__PUBLIC__/js/user/login','js')}
+		{:loadfile('__PUBLIC__/css/user/login','css')}
+        {:loadfile('__PUBLIC__/css/tp.dialog','css')}
+
+<form ng-app="myApp" ng-controller="validateCtrl" style="height:100%;background: url(/app/Home/Public/img/user/login_bg.png) no-repeat;"   name="myForm" novalidate>
+    <div class="header">
+
+        <input type="number" id="phone" placeholder="请输入手机号码" required maxlength="11" />
+
+        <input type="password" id="pwd" placeholder="6-16位密码" required ng-minlength="6" ng-maxlength="16" maxlength="16" />
+
+        <div id="dforget">
+            <a href="#" class="flink"><u>忘记密码?</u></a>
+        </div>
+
+
+        <div id="dlogin">
+            <font style="font-size:0.5rem;color:antiquewhite;">登陆</font>
+        </div>
+        <div id="dlogin_wc">
+            <font style="font-size:0.5rem;color:antiquewhite;">微信登陆</font>
+        </div>
+        <div id="dregist">
+            <font style="font-size:0.5rem;color:#ff9f10;">注册</font>
+        </div>      
+        <!--<div id="dlogout">
+            <font style="font-size:0.5rem;color:#110202;">退出</font>
+        </div>-->  
+    </div>
+</form>

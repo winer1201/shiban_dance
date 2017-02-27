@@ -1,0 +1,137 @@
+header{
+	height:3.2rem;
+	width:7.5rem;
+	position: relative;
+}
+header img{
+	height:3.2rem;
+	width:7.5rem;
+}
+header .head{
+	display: block;
+	height:1.52rem;
+	width:1.52rem;
+	background-size:100% 100%;
+	position: absolute;
+	left:0.64rem;
+	top:0.58rem;
+}
+header ul{
+	position: absolute;
+	left:2.32rem;
+	top:1rem;
+	font-size:0.34rem;
+	color:#666;
+}
+header ul li{
+	width:3.8rem;
+}
+header #dancename{
+	color:#333;
+}
+#main {
+	background:#f5f5f5;
+}
+#main h2{
+	height:1.03rem;
+	color:#272727;
+	position:relative;
+	font-size:0.36rem;
+	line-height:1.03rem;
+	padding-left:0.96rem;
+	padding-right:0.32rem;
+}
+#main h2 i{
+	position:absolute;
+	display:block;
+	height:0.43rem;
+	width:0.49rem;
+	background-size:100% 100%;
+	left:0.32rem;
+	top:0.25rem;
+}
+#main h2 p{
+	float:right;
+	font-size:0.36rem;
+	width:3.1rem;
+	text-align:right;
+}
+#main h2 em{
+	position: absolute;
+	height:0.34rem;
+	width:0.52rem;
+	display: block;
+	background-size:100% 100%;
+	right:2.7rem;
+	top:0.3rem;
+}
+.wrap{
+	height:0.8rem;
+	width:7.5rem;
+	background:#fff;
+	margin-bottom: 0.1rem;
+	text-align:center;
+	color:#272727;
+	line-height:0.8rem;
+	font-size:0.36rem;
+}
+.load li{
+	background:#fff;
+	padding:0 0.32rem 0 0.32rem;
+	height:2.61rem;
+	margin-bottom:0.1rem;
+}
+.load li .lt{
+	float:left;
+	position:relative;
+	width:2.7rem;
+	height:2.61rem;
+}
+.load li .lt i{
+	display:block;
+	width:0.66rem;
+	height:0.66rem;
+	position: absolute;
+	left:1.02rem;
+	top:0.975rem;
+	border-radius:50%;
+}
+.load .lt img{
+	height:2.61rem;
+	width:2.7rem;
+	position: absolute;
+	z-index: 2;
+}
+.load .rt{
+	width:3.96rem;
+	height:2.41rem;
+	padding-left:0.2rem;
+	font-size:0.34rem;
+	color:#272727;
+	padding-top:0.2rem;
+	float:left;
+	position: relative;
+} 
+.load .rt p{
+	line-height:0.54rem;
+}
+
+.load .rt #votedl{
+	position:absolute;
+	left:2rem;
+	bottom:0.05rem;
+	text-align:center;
+	width:0.95rem;
+	font-size:0.28rem;
+}
+.load .rt dd{
+	line-height:0.32rem;
+}
+#zhuandl{
+	position:absolute;
+	right:0rem;
+	bottom:0.05rem;
+	text-align:center;
+	width:0.95rem;
+	font-size:0.28rem;
+}

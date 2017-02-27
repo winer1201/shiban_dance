@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+    <meta name="page-view-size" content="{$reso}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>养老门户</title>
+    {:loadfile('__PUBLIC__/js/base/util','js')}
+    {:loadfile('__PUBLIC__/js/base/keyevent','js')}
+    {:loadfile('__PUBLIC__/js/base/controlEvent','js')}
+    {:loadfile('__PUBLIC__/js/base/enumCollection','js')}
+    {:loadfile('__PUBLIC__/js/tools/guid','js')}
+    {:loadfile('__PUBLIC__/js/tools/loadimg','js')}
+    {:loadfile('__PUBLIC__/js/globalconfig','js')}
+    {:loadfile('__PUBLIC__/js/common','js')}
+    <script type="text/javascript">
+        var m_reso = '{$reso}';
+        var m_publicUrl = '__PUBLIC__';
+        var m_baseUrl = '__SELF__';
+        var m_rootUrl = '__ROOT__';
+        var m_usercode = '';
+        var m_user_session = '';
+        var m_areacode = '';
+        var m_websitecode = '';
+        var m_tp_tps_url = "{$tp_tps_url}";
+        var m_tp_pms_url = "{$tp_pms_url}";
+        var m_tp_cbs_url = "{$tp_cbs_url}";
+        var m_tp_ls_url = "{$tp_ls_url}";
+        var m_tp_tvportal_url = "{$tp_tvportal_url}";
+        var m_tp_gsm_url = "{$tp_gsm_url}";
+        var m_tp_pics_url = "{$tp_pics_url}";
+        var m_cyber_tvportal_id = "{$cyber_tvportal_id}";
+        var m_cyber_tenantid = "{$cyber_tenantid}";
+        var m_cyber_epg_id = "{$cyber_epg_id}";
+    </script>
+</head>
+    {__CONTENT__}
+    <script type="text/javascript">
+        common.initUrl();
+    </script>
+</html>

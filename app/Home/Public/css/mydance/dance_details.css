@@ -1,0 +1,99 @@
+video {
+  height: 3.8rem;
+  width: 7.5rem;
+  background: #000; }
+
+#main {
+  height: 3.48rem;
+  width: 7.18rem;
+  padding-left: 0.32rem;
+  font-size: 0.3rem;
+  color: #333; }
+  #main h2 {
+    padding-left: 0.18rem;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    margin-top: 0.08rem;
+    position: relative; }
+    #main h2 i {
+      display: block;
+      height: 0.32rem;
+      width: 0.06rem;
+      position: absolute;
+      left: 0;
+      top: 0.07rem;
+      background: #05b6e9; }
+  #main .music li {
+    height: 0.3rem; }
+  #main .main_foot {
+    height: 2.18rem;
+    position: relative; }
+    #main .main_foot span {
+      position: absolute;
+      display: block;
+      width: 1.25rem;
+      height: 1.31rem;
+      border-radius: 50%;
+      left: 0;
+      top: 0.26rem;
+      background-size: 100% 100%; }
+    #main .main_foot ul {
+      position: absolute;
+      left: 1.35rem;
+      top: 0.5rem; }
+      #main .main_foot ul li {
+        width:4.48rem;
+        line-height: 0.48rem;
+        color: #333;
+        font-size: 0.28rem; }
+
+#list {
+  padding-left: 0.32rem; }
+  #list h2 {
+    height: 0.7rem;
+    line-height: 0.7rem;
+    font-size: 0.3rem;
+    color: #272727;
+    padding-left: 0.18rem;
+    position: relative;
+    border-bottom: 1px solid #999; }
+    #list h2 i {
+      display: block;
+      width: 0.06rem;
+      height: 0.32rem;
+      position: absolute;
+      left: 0;
+      top: 0.16rem;
+      background: #05B6E9; }
+    #list h2 em {
+      display: block;
+      width: 0.28rem;
+      height: 0.5rem;
+      position: absolute;
+      right: 0.32rem;
+      top: 0.1rem;
+      background: url(/app/Home/Public/img/star/arrow.png) no-repeat;
+      background-size: 100% 100%; }
+  #list .load {
+    padding-top: 0.3rem; }
+    #list .load li {
+      float: left;
+      height: 2.19rem;
+      width: 3.34rem;
+      margin-right: 0.18rem;
+      position: relative;
+      margin-bottom: 0.18rem; }
+      #list .load li img {
+        height: 2.19rem; }
+      #list .load li span {
+        display: block;
+        height: 0.4rem;
+        width: 3.24rem;
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 0.26rem;
+        line-height: 0.4rem;
+        color: #fff;
+        padding-left: 0.1rem; }

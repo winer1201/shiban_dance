@@ -1,0 +1,74 @@
+html, body {
+  background: #f5f5f5; }
+
+.header {
+  height: 1.1rem;
+  line-height: 1.1rem;
+  padding: 0 0.46rem;
+  position: relative;
+  margin-bottom: 0.1rem;
+  background: #fff; }
+  .header span {
+    display: block;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    font-size: 0.38rem;
+    color: #272727;
+    text-align: center;
+    width: 2.46rem;
+    float: left; }
+  .header i {
+    display: block;
+    width: 2.46rem;
+    height: 0.08rem;
+    background: #08b3eb;
+    position: absolute;
+    left: 0.46rem;
+    bottom: 0.2rem; }
+.list{
+	margin-top:0.2rem;
+}
+.list li {
+  padding-left: 0.37rem;
+  background: #fff;
+  height: 3.22rem;
+  position: relative;
+  margin-bottom: 0.1rem; }
+  .list li h2 {
+    height: 0.62rem;
+    line-height: 0.62rem;
+    font-size: 0.32rem;
+    padding-left: 0.18rem; }
+  .list li i {
+    display: block;
+    width: 0.08rem;
+    height: 0.36rem;
+    position: absolute;
+    left: 0.37rem;
+    top: 0.13rem;
+    background: #08B3EB; }
+  .list li img {
+    height: 2.6rem;
+    float: left; }
+  .list li .rt {
+    float: left;
+    width: 4.13rem;
+    height: 2.6rem;
+    padding-left: 0.3rem;
+    font-size: 0.32rem;
+    position: relative; }
+    .list li .rt dl {
+      margin-top: 0.3rem;
+      line-height: 0.47rem;
+      font-size: 0.32rem;
+      color: #272727;
+      }
+    .list li .rt i {
+      display: block;
+      position: absolute;
+      width: 3.63rem;
+      height:0.5rem;
+      background: url(/app/Home/Public/img/star/hu.png) no-repeat;
+      background-size: 100% 100%;
+      left: 0.3rem;
+      top: -0.2rem; }

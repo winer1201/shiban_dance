@@ -1,0 +1,19 @@
+.footer {
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  bottom: 0;
+  height: 1.2rem;
+  background: #fff;
+  padding-top: 0.17rem; }
+  .footer img {
+    width: 0.64rem;
+    height: 0.63rem; }
+  .footer dl {
+    float: left;
+    width: 1.875rem;
+    height: 1.2rem;
+    text-align: center;
+    font-size: 0.28rem; }
+    .footer dl dt {
+      height: 0.68rem; }

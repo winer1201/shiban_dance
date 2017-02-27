@@ -1,0 +1,90 @@
+html, body {
+  background: #f5f5f5; }
+
+#rank {
+  padding-top: 0.1rem; }
+  .rank h2{
+  	height:0.8rem;
+  	background:#fff;
+		line-height:0.8rem;
+		position:relative;
+		font-size:0.34rem;
+		color:#272727;
+		padding-left:0.42rem;
+  }
+  .rank h2 i{
+	position: absolute;
+	display: block;
+	height:0.4rem;
+	width:0.08rem;
+	background:#03b4ed;
+	left:0.32rem;
+	top:0.2rem;
+}
+  #rank li {
+    padding-left: 0.32rem;
+    height: 2.61rem;
+    background: #fff;
+    font-size: 0.32rem;
+    color: #272727;
+    margin-bottom: 0.1rem; }
+    #rank li .lf img {
+      height: 2.61rem;
+      width:2.7rem;
+      display: block; }
+    #rank li .lf {
+      float: left;
+      width:2.7rem;
+      height:2.61rem;
+      margin-right: 0.2rem; }
+    #rank li .rt {
+      width: 4.28rem;
+      float: left;
+      height: 2.61rem;
+      position: relative; }
+      #rank li .rt .music {
+        margin-top: 0.305rem;
+        height: 0.47rem;
+        line-height: 0.47rem;
+        font-size: 0.32rem;
+        color: #272727; }
+      #rank li .rt .dance {
+        height: 0.47rem;
+        line-height: 0.47rem;
+        font-size: 0.32rem;
+        color: #272727; }
+      #rank li .rt .vote {
+        position: absolute;
+        color: #272727;
+        font-size: 0.28rem;
+        height: 0.48rem;
+        line-height: 0.48rem;
+        bottom: 0.02rem;
+        left: 0; }
+      #rank li .rt .zan {
+        width: 0.88rem;
+        text-align: center;
+        color: #272727;
+        position: absolute;
+        left: 1.75rem;
+        bottom: 0.02rem; }
+        #rank li .rt .zan img {
+          height: 0.59rem;
+          margin-left:0.1rem; }
+        #rank li .rt .zan dd {
+          height: 0.48rem;
+          line-height: 0.48rem;
+          font-size: 0.28rem; }
+      #rank li .rt .zhuan {
+        text-align: center;
+        color: #272727;
+        position: absolute;
+        left: 3.28rem;
+        bottom: 0.02rem;
+        width: 0.65rem; }
+        #rank li .rt .zhuan img {
+          height: 0.51rem; }
+        #rank li .rt .zhuan dd {
+          height: 0.48rem;
+          line-height: 0.48rem;
+          font-size: 0.28rem; }

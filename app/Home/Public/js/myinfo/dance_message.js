@@ -1,0 +1,15 @@
+require(['zepto','Adapter_screen','ajax_model'],function($,adapter,ajax){
+	/*调用屏幕适配模块*/
+	adapter.adapter();
+	/*按钮点击事件*/
+	$('.load').on('click','.tong',function(){
+		$(this).addClass('active');
+		$(this).html('已同意');
+		$(this).next().css('display','none');
+	})
+	$('.load').on('click','.hu',function(){
+		$(this).addClass('active');
+		$(this).html('已忽略');
+		$(this).prev().css('display','none');
+	})
+})

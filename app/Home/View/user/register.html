@@ -1,0 +1,24 @@
+﻿<layout name="Layout/content" />
+		{:loadfile('__PUBLIC__/js/user/register','js')}
+		{:loadfile('__PUBLIC__/css/user/register','css')}
+        {:loadfile('__PUBLIC__/css/tp.dialog','css')}
+    <div class="header">
+
+        <input type="number" id="phone" placeholder="请输入手机号码" maxlength="11" />
+
+        <div id="dcode">
+            <div id="dnumber">
+                <input type="number" id="verifycode" placeholder="请输入验证码" maxlength="6" />
+            </div>
+            <div id="dsend">
+                <!--<input type="button" id="sendcode" value="获取验证码" />-->
+                <font id="fcode">获取验证码</font>
+            </div>            
+        </div>        
+
+        <input type="password" id="pwd" placeholder="请设置6-16位密码" maxlength="16" />
+
+        <div id="dregist">
+            <font style="font-size:0.5rem;color:antiquewhite;">注册</font>
+        </div>
+    </div>

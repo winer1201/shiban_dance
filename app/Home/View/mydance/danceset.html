@@ -1,0 +1,22 @@
+<layout name="Layout/content_nav" />
+		{:loadfile('__PUBLIC__/js/LAreaData1','js')}
+		{:loadfile('__PUBLIC__/js/mydance/danceset','js')}
+		{:loadfile('__PUBLIC__/css/LArea','css')}
+		{:loadfile('__PUBLIC__/css/signature','css')}
+		{:loadfile('__PUBLIC__/css/mydance/danceset','css')}
+		<div id="infoset">
+			<ul>
+				<li style="height:1.2rem;line-height:1.2rem;">头像<label id="head"><input id="file"type="file" /></label><i style="top:0.435rem;"></i></li>
+				<li class="dancename">舞队名称<span id="dancename"></span><i></i></li>
+				<li class="signature">舞队公告<span id="signature"></span><i></i></li>
+				<!--<li>场地<span>北京昌平</span><i></i></li>-->
+				<li>
+					区域
+					<input type="text" readonly="readonly" placeholder="请选择"id="adress"/>
+					<input id="code" type="hidden" />
+					<i></i>
+				</li>
+				<!--<li>街道<span>请选择</span><i></i></li>-->
+				<li onclick="javascrtpt:window.location.href='../MyDance/member'">成员管理<i></i></li>
+			</ul>
+		</div>

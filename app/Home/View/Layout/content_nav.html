@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no"/>
+		<title>嗨天津·广场舞</title>		
+		 <script type="text/javascript">
+        var m_publicUrl = '__PUBLIC__';
+        var m_baseUrl = '__SELF__';
+        var m_rootUrl = '__ROOT__';
+        var m_uid = '{$cur_uid}';
+        var m_token = '{$cur_token}';
+        var m_tp_wcs_url = "{$tp_wcs_url}";
+        var m_tp_wcportal_url = "{$tp_wcportal_url}";
+        var m_cur_uid = '{$cur_uid}';
+        var m_param_uid = '{$uid}';
+        var m_unionid = '{$unionid};'
+        var m_openid = '{$openid};'
+
+        </script>
+        {:loadfile('__PUBLIC__/libs/require','js')}
+		{:loadfile('__PUBLIC__/js/config','js')}
+		{:loadfile('__PUBLIC__/js/globalconfig','js')}
+		{:loadfile('__PUBLIC__/js/common','js')}
+        <!--{:loadfile('__PUBLIC__/js/angular.min','js')}-->
+		{:loadfile('__PUBLIC__/css/reset','css')}
+		{:loadfile('__PUBLIC__/css/tp.dialog','css')}
+		{:loadfile('__PUBLIC__/css/layout/footer','css')}
+	</head>
+	<body>
+		{__CONTENT__}
+		<div class="footer">
+			<!--<dl>
+				<dt><a href="../myinfo/index"><img src="__PUBLIC__/img/myinfo/home.png" alt="" /></a></dt>
+				<dd>主页</dd>
+			</dl>-->
+			<dl>
+				<dt><a href="../star/star"><img id="starimg"  alt="" /></a></dt>
+				<dd>上电视</dd>
+			</dl>
+			<!--<label style="position: relative;padding-top:0.67rem;width:1.875rem;float:left;text-align:center;font-size:0.28rem;height:0.53rem;">
+				<span class="load_img" style="display:block;height:0.63rem;width:0.64rem;background-image:url(__PUBLIC__/img/myinfo/load.png);background-size:100% 100%;position:absolute;left:0.62rem;top:0rem;"></span>
+				<input type="file" style="display:none;"/>
+				<span>上传视频</span>
+			</label>-->
+            <dl>
+                <dt onclick="javascript:$('#loadimg').attr('src',m_publicUrl+'/img/myinfo/load_liang.png')"><a href="../video/uploadvideo"><img id="loadimg" alt="" src="__PUBLIC__/img/myinfo/load.png" /></a></dt>
+                <dd>上传视频</dd>
+            </dl>
+			<dl>
+				<dt><a href="../activities/eggs"><img id="activeimg"  alt="" /></a></dt>
+				<dd>活动</dd>
+			</dl>
+			<dl>
+				<dt><a href="../myinfo/info"><img id="myimg"  alt="" /></a></dt>
+				<dd class="my">我的</dd>
+			</dl>
+		</div>
+		<script type="text/javascript">
+	        common.initUrl();
+	    </script>
+	</body>
+</html>
+

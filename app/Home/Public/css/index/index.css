@@ -1,0 +1,102 @@
+#header {
+  height: 3.2rem;
+  width: 7.5rem;
+  background: url(/app/Home/Public/img/index/bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative; }
+  #header .head {
+    display: block;
+    height: 1.52rem;
+    width: 1.52rem;
+    position: absolute;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    left: 2.77rem;
+    top: 2.73rem; }
+  #header ul {
+    position: absolute;
+    width:3.6rem;
+    text-align:center;
+    left: 1.72rem;
+    top: 4.38rem;
+    color: #272727; }
+    #header ul li {
+      line-height: 0.44rem;
+      font-size: 0.34rem; }
+.kong{
+	height:2.38rem;
+	width:7.5rem;
+}
+#main {
+  padding-top: 0.51rem;
+  padding-left: 0.32rem;
+  padding-bottom: 1.2rem; }
+  #main h2 {
+    height: 0.61rem;
+    font-size: 0.38rem;
+    position: relative;
+    line-height: 0.61rem;
+    padding-left: 0.6rem;
+    border-bottom: 1px solid #999; }
+    #main h2 a {
+      color: #272727; }
+    #main h2 i {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      height: 0.43rem;
+      width: 0.49rem;
+      display: block;
+      background: url(/app/Home/Public/img/index/she.png) no-repeat;
+      background-size: 100% 100%; }
+    #main h2 span {
+      position: absolute;
+      right: 0.32rem;
+      bottom: 0.12rem;
+      height: 0.5rem;
+      width: 0.28rem;
+      display: block;
+      background: url(/app/Home/Public/img/index/arrow.png) no-repeat;
+      background-size: 100% 100%; }
+  #main .list {
+    margin-top: 0.4rem; }
+    #main .list li {
+      height: 2.54rem;
+      width: 3.32rem;
+      float: left;
+      position: relative;
+      margin-right: 0.2rem;
+      margin-bottom: 0.2rem; }
+      #main .list li img {
+        width: 3.32rem; }
+      #main .list li span {
+        display: block;
+        position: absolute;
+        height: 0.5rem;
+        width: 2.97rem;
+        left: 0;
+        bottom: 0;
+        color: #fff;
+        font-size: 0.3rem;
+        background: rgba(0, 0, 0, 0.3);
+        line-height: 0.5rem;
+        padding-left: 0.35rem; }
+      #main .list li i {
+        display: none;
+        height: 0.66rem;
+        width: 0.66rem;
+        background: url(/app/Home/Public/img/index/play.png) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 1.33rem;
+        top: 0.94rem; }
+      #main .list li em {
+        display: block;
+        height: 0.33rem;
+        width: 0.21rem;
+        background: url(/app/Home/Public/img/index/music.png) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 0.08rem;
+        bottom: 0.1rem;
+        z-index: 2; }

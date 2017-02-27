@@ -1,0 +1,72 @@
+#header {
+  height: 0.98rem;
+  line-height: 0.98rem;
+  font-size: 0.34rem;
+  padding-left: 0.5rem;
+  color: #272727;
+  font-weight: 200;
+  position: relative; }
+  #header i {
+    display: block;
+    width: 0.08rem;
+    height: 0.38rem;
+    position: absolute;
+    background: #05b6e9;
+    left: 0.32rem;
+    top: 0.3rem; }
+
+.list {
+  padding-left: 0.32rem; }
+  .list dl {
+    width: 3.33rem;
+    height: 3.45rem;
+    position: relative;
+    float: left;
+    margin-right: 0.18rem;
+    color: #272727; }
+    .list dl dt {
+      margin-bottom: 0.14rem; }
+      .list dl dt i {
+        display: block;
+        display:none;
+        width: 0.52rem;
+        height: 0.52rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #fff; }
+        .list dl dt i em {
+          display: block;
+          display:none;
+          width: 0.4rem;
+          height: 0.26rem;
+          position: absolute;
+          left: 0.06rem;
+          top: 0.13rem;
+          background: url(/app/Home/Public/img/star/dui.png) no-repeat;
+          background-size: 100% 100%; }
+    .list dl dd {
+      height: 0.38rem;
+      line-height: 0.38rem;
+      font-size: 0.3rem; }
+    .list dl img {
+      height: 2.4rem;
+      width:3.33rem; }
+#btn {
+  display: block;
+  display:none;
+  height: 0.94rem;
+  width: 6.87rem;
+  background: url(/app/Home/Public/img/star/join.png) no-repeat;
+  background-size: 100% 100%;
+  line-height: 0.94rem;
+  position: fixed;
+  text-align: center;
+  font-size: 0.38rem;
+  color: #fff;
+  bottom: 0.3rem;
+  left: 0.315rem; }
+.list dl dt i .active{
+	display:block;
+}

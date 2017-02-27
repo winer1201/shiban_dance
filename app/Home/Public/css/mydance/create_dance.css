@@ -1,0 +1,85 @@
+html, body {
+  background: #F5F5F5; }
+
+#create {
+  position: relative;
+  width: 7.5rem;
+  padding-top: 0.2rem; }
+  #create li {
+    height: 1.14rem;
+    line-height: 1.14rem;
+    padding-left: 0.32rem;
+    font-size: 0.36rem;
+    color: #272727;
+    margin-bottom: 2px;
+    background: #fff;
+    position: relative; }
+    #create li .sign {
+      position: absolute;
+      right: 0.78rem;
+      top: 0.225rem;
+      display: block;
+      width: 0.53rem;
+      height: 0.69rem;
+      background: url(/app/Home/Public/img/create_dance/location.png) no-repeat;
+      background-size: 100% 100%; }
+    #create li #code {
+      text-decoration: underline;
+      color: #e20505;
+      font-size: 0.26rem;
+      width:1.88rem;
+      text-align:right;
+      display:inline-block; }
+    #create li .zi {
+      position: absolute;
+      color: #999;
+      font-size: 0.26rem;
+      right: 0.8rem;
+      bottom: 0.04rem;
+      line-height: 0.36rem; }
+    #create li #dancename {
+      height: 0.79rem;
+      line-height: 0.79;
+      font-size: 0.36rem;
+      border-radius: 0.05rem;
+      border: 1px solid #999;
+      width: 4.22rem; }
+    #create li #adress{
+    	height: 0.79rem;
+      line-height: 0.79;
+      font-size: 0.36rem;
+      border:0;
+      width:3.7rem;
+    }
+    #create li #load {
+      display: block;
+      position: absolute;
+      right: 0.95rem;
+      top: 0.06rem;
+      height: 1.08rem;
+      width: 1.08rem;
+      border-radius:50% ;
+      background: url(/app/Home/Public/img/create_dance/head.png) no-repeat;
+      background-size: 100% 100%; }
+    #create li p {
+      position: absolute;
+      color: #999; }
+  #create .lt {
+    height: 1.14rem;
+    line-height: 1.14rem;
+    width: 1.80rem;
+    display: inline-block;
+    margin-right: 0.3rem; }
+  #create #sure {
+    display: block;
+    position: absolute;
+    bottom: -1.88rem;
+    left: 2.33rem;
+    height: 0.88rem;
+    width: 2.82rem;
+    background: url(/app/Home/Public/img/create_dance/btn.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 0.88rem;
+    font-size: 0.4rem;
+    text-align: center;
+    color: #fff; }

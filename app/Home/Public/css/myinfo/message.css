@@ -1,0 +1,50 @@
+html{
+	background:#f5f5f5;
+}
+ul {
+	background:#f5f5f5;
+}
+ul li{
+	height:1rem;
+	margin-top:0.1rem;
+	background:#fff;
+	line-height:1rem;
+	font-size:0.38rem;
+	color:#272727;
+	padding-left:1.1rem;
+	position:relative;
+}
+ul li i{
+	display:block;
+	width:0.67rem;
+	height:0.67rem;
+	position: absolute;
+	left:0.32rem;
+	top:0.165rem;
+	background-size:100% 100%;
+}
+ul li span{
+	height:0.34rem;
+	width:0.34rem;
+	background:#ff0000;
+	display:block;
+	border-radius:50% ;
+	position:absolute;
+	right:0.77rem;
+	top:0.33rem;
+	color:#fff;
+	line-height:0.34rem;
+	padding-left:0.04rem;
+	font-size:0.2rem;
+	text-align: center;
+}
+ul li em{
+	height:0.35rem;
+	display:block;
+	width:0.19rem;
+	background-image:url(/app/Home/Public/img/myinfo/ju.png);
+	background-size:100% 100%;
+	position: absolute;
+	right:0.32rem;
+	top:0.325rem;
+}

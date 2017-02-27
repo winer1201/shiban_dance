@@ -1,0 +1,86 @@
+.swiper-container {
+  height: 3.6rem; }
+  .swiper-container img {
+    height: 3.6rem; }
+
+.swiper-pagination-bullet {
+  height: 0.12rem;
+  width: 0.12rem;
+  margin-right: 0.15rem !important; }
+
+.swiper-pagination {
+  bottom: 0.05rem !important;
+  left: 2.8rem !important; }
+
+.star {
+  height: 0.84rem;
+  padding-left: 0.32rem;
+  padding-right: 0.32rem;
+  padding-top: 0.2rem;
+  margin-bottom: 0.36rem; }
+  .star a {
+    display: block;
+    height: 0.84rem;
+    width: 2.97rem;
+    float: left;
+    background: url(/app/Home/Public/img/star/btn.png) no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.32rem;
+    line-height: 0.84rem;
+    text-align: center;
+    color: #fff; }
+
+#main {
+  padding-left: 0.32rem;
+  color: #fff;
+  padding-bottom: 1.2rem; }
+  #main .sign {
+    position: relative; }
+    #main .sign h2 {
+      height: 0.68rem;
+      line-height: 0.68rem;
+      font-size: 0.32rem;
+      padding-left: 0.18rem;
+      border-bottom: 1px solid #999; }
+      #main .sign h2 a {
+        color: #272727; }
+    #main .sign i {
+      position: absolute;
+      left: 0;
+      top: 0.16rem;
+      display: block;
+      /*display: none;*/
+      height: 0.34rem;
+      width: 0.08rem;
+      background: #05b6e9; }
+    #main .sign .arrow {
+      position: absolute;
+      right: 0.32rem;
+      top: 0.04rem;
+      display: block;
+      height: 0.5rem;
+      width: 0.28rem;
+      background: url(/app/Home/Public/img/star/arrow.png) no-repeat;
+      background-size: 100% 100%; }
+  #main .list {
+    height: 2.62rem;
+    padding-top: 0.15rem; }
+    #main .list li {
+      height: 2.16rem;
+      width: 2.15rem;
+      position: relative;
+      float: left;
+      margin-right: 0.2rem; }
+      #main .list li img {
+        height: 2.16rem;
+        width: 2.15rem; }
+      #main .list li span {
+        display: block;
+        padding-left: 0.1rem;
+        width: 2.05rem;
+        height: 0.4rem;
+        background: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        font-size: 0.24rem;
+        bottom: 0;
+        left: 0; }

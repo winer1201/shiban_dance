@@ -1,0 +1,60 @@
+<layout name="Layout/content_new" />
+    {:loadfile('__PUBLIC__/js/base/new2.0/tableEvent','js')}
+    {:loadfile('__PUBLIC__/js/base/new2.0/navevent','js')}
+    {:loadfile('__PUBLIC__/js/mod/index/index','js')}
+    {:loadfile('__PUBLIC__/js/jquery.min','js')}
+<script type="text/javascript">
+    function init() {
+        if (typeof (page_init) == "function")
+            page_init();
+            
+    }
+    
+</script>
+<style>
+	table{
+		position:absolute;
+		left:110px;
+		top:3px;
+	}
+</style>
+<div class="message"style="position:absolute;left:765px;top:15px;height:50px;width:260px;display:none;">
+	<span style="position:absolute;left:144px;top:10px;display:block;width:1px;height:20px;background:url(/app/Home/Public/img/ToolBar/xian.png) no-repeat;"></span>
+	<span style="position:absolute;left:230px;top:10px;display:block;width:1px;height:20px;background:url(/app/Home/Public/img/ToolBar/xian.png) no-repeat;"></span>
+	<span style="display:block;position:absolute;left:154px;top:3px;height:34px;width:40px;background:url(/app/Home/Public/img/ToolBar/hong.png) no-repeat;">
+		<i style="position:absolute;left:43px;top:-1px;font-size:20px;font-style: normal;color:red;" id="message"></i>
+	</span>
+	<span style="display:block;height:42px;width:300px;position:absolute;left:-164px;top:0px;">
+		<em id="tian_num"style="font-size:9px;float:right;font-style: normal;line-height:42px;font-size:18px;"></em>
+		<i  id="weather"style="display:block;height:29px;width:38px;margin-right:5px;float:right;background-size:100% 100%;">	
+		</i>
+	</span>
+	<span style="display:block;position:absolute;left:242px;top:0;height:40px;width:118px;line-height:40px;font-size:24px;letter-spacing: 2px;" id="show">	
+	</span>
+</div>
+<script>
+	 var show = document.getElementById("show");
+	  setInterval(function() {
+	   var time = new Date();
+	   var second=time.getSeconds();
+	   var hours=time.getHours();
+	   var minutes=time.getMinutes();
+	   if(second<10){
+	   	second="0"+second;
+	   }
+       if(hours<10){
+	   	hours="0"+hours;
+	   }
+	   if(minutes<10){
+	   	minutes="0"+minutes;
+	   }
+	   var t =  hours + ":"
+	     + minutes + ":" + second;
+	   show.innerHTML = t;
+	  }, 1000);
+</script>
+<div id="page_navbar" style="padding-left:128px;padding-top:30px;" class="page-navbar">
+</div>
+<div id="page_content" style="height:511px;padding-left:110px;margin-top:130px;position:relative;" class="page-content">
+</div>
+

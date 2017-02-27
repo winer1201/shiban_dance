@@ -1,0 +1,35 @@
+<layout name="Layout/content_nav" />
+		{:loadfile('__PUBLIC__/js/LAreaData1','js')}
+		{:loadfile('__PUBLIC__/js/myinfo/infoset','js')}
+		{:loadfile('__PUBLIC__/css/LArea','css')}
+		{:loadfile('__PUBLIC__/css/signature','css')}
+		{:loadfile('__PUBLIC__/css/swiper.min','css')}
+		{:loadfile('__PUBLIC__/css/zepto.mdater','css')}
+		{:loadfile('__PUBLIC__/css/myinfo/infoset','css')}
+		<div id="infoset">
+			<ul>
+				<li style="height:1.2rem;line-height:1.2rem;">头像<a href="uploadhead"><label id="head"></label></a><i style="top:0.435rem;"></i></li>
+				<li class="input_nick">昵称<span id="nick"></span><i></i></li>
+				<li>性别<span id="sex"></span><i></i></li>
+				<li>出生日期    <input type="text" id="date" readonly="readonly" placeholder="请选择"/><i></i></li>
+				<li class="input_sign">签名<span id="signature">请输入</span><i></i></li>
+				<li>区域 
+					<input type="text" id="adress" readonly="readonly" placeholder="请选择"/>
+					<input id="code" type="hidden" value="20,234,504"/>
+					<i></i>
+				</li>
+				<!--<li>街道<span>请选择</span><i></i></li>-->
+				<li id="phone_dian">手机号绑定<span id="phone">请添加</span><i></i></li>
+			</ul>
+		</div>
+		<div class="mask"></div>
+		<div class="sex">
+			<div id="sure"><span class="esc">取消</span><span class="yes">确定</span></div>
+			<div class="swiper-container" >
+  				<div class="swiper-wrapper">
+				    <div class="swiper-slide">男</div>
+				    <div class="swiper-slide">女</div>
+				</div>
+			</div>
+		</div>
+

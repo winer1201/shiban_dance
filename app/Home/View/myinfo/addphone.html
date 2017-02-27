@@ -1,0 +1,13 @@
+<layout name="Layout/content" />
+		 {:loadfile('__PUBLIC__/js/myinfo/addphone','js')}
+		 {:loadfile('__PUBLIC__/css/myinfo/addphone','css')}
+		<div class="header">
+			<input type="number" id="number"placeholder="请输入11位有效手机号"/>
+			<div class="code_wrap clear">
+				<input type="number" id="code"  placeholder="请输入4位验证码" />
+				<span class="time">发送验证码</span>
+			</div>
+			<input type="password" id="pass"placeholder="请设置6到16位密码"/>
+			<input type="password" id="confirm"placeholder="请确认密码"/>
+			<span class="sure">确定</span>
+		</div>

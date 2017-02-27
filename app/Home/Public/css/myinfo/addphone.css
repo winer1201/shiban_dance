@@ -1,0 +1,59 @@
+html {
+  background: #f5f5f5;
+  width: 100%;
+  height: 100%; }
+
+.header {
+  min-height: 2.4rem;
+  padding-left: 0.32rem;
+  padding-top: 0.8rem;
+  background: #f5f5f5;
+  position: relative; }
+  .header .sure {
+    display: block;
+    font-size: 0.48rem;
+    text-align: center;
+    color: #fff;
+    line-height: 1.19rem;
+    min-height: 1.19rem;
+    width: 6.86rem;
+    position: absolute;
+    bottom: -2.08rem;
+    left:0.32rem;
+    background:#FF9F10;
+    background-size: 100% 100%;
+    font-size: 0.48rem; }
+  .header input {
+    height: 1rem;
+    width: 6.56rem;
+    padding-left:0.3rem;
+    border-radius: 0.06rem;
+    border: 0;
+    font-size: 0.34rem;
+    color: #999;
+    margin-bottom: 0.4rem; }
+    .code_wrap{
+    	margin-bottom: 0.4rem;
+    }
+  .header #code {
+    float: left;
+    height: 1rem;
+    width: 2.95rem;
+    padding-left:0.3rem;
+    font-size: 0.34rem;
+    color: #999;
+    margin:0;
+    border-radius: 0.06rem;
+    border: 0; }
+  .header .time {
+    float: right;
+    margin-right: 0.32rem;
+    background: #FF9F10;
+    display: block;
+    height: 1rem;
+    width: 2.61rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.34rem;
+    border-radius: 0.06rem; }

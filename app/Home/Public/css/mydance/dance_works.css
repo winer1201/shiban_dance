@@ -1,0 +1,157 @@
+.sure {
+  width: 7.5rem;
+  height: 2.64rem;
+  background: #fff;
+  position: fixed;
+  display: none;
+  left: 0;
+  bottom: 0;
+  z-index: 7; }
+  .sure p {
+    height: 1.22rem;
+    line-height: 1.22rem;
+    font-size: 0.38rem;
+    color: #272727;
+    margin-bottom: 0.13rem;
+    text-align: center; }
+  .sure span {
+    height: 0.88rem;
+    width: 2.24rem;
+    display: block;
+    background: url(/app/Home/Public/img/dance_works/btn.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 0.88rem;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 0.4rem; }
+
+.setzuo {
+  position: fixed;
+  display:none;
+  right: 0.32rem;
+  top: 1.14rem;
+  z-index: 6; }
+  .setzuo #load {
+    width: 1.32rem;
+    height: 0.84rem;
+    margin-bottom: 0.22rem;
+    display: block;
+    background: url(/app/Home/Public/img/dance_works/load2.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 0.84rem;
+    font-size: 0.4rem;
+    color: #fff;
+    padding-left: 1.06rem; }
+  .setzuo span {
+    width: 1.32rem;
+    height: 0.84rem;
+    display: block;
+    background: url(/app/Home/Public/img/dance_works/delete.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 0.84rem;
+    font-size: 0.4rem;
+    color: #fff;
+    padding-left: 1.06rem; }
+
+.mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.3;
+  background: #fff;
+  z-index: 5;
+  display: none; }
+
+header {
+  height: 1.16rem;
+  text-align: center;
+  font-size: 0.38rem;
+  color: #272727;
+  line-height: 1.16rem;
+  position: relative; }
+  header span {
+    width: 0.5rem;
+    height: 0.9rem;
+    position: absolute;
+    display: block;
+    display:none;
+    right: 0.46rem;
+    top: 0.15rem;
+    font-size: 0.24rem; }
+    header span i {
+      width: 0.43rem;
+      height: 0.46rem;
+      position: absolute;
+      display: block;
+      left: 0.02rem;
+      top: 0;
+      background: url(/app/Home/Public/img/dance_works/bianji.png) no-repeat;
+      background-size: 100% 100%;
+      margin-bottom: 0.08rem; }
+    header span em {
+      margin-top: 0.08rem;
+      display: block; }
+
+nav {
+  padding-left: 0.32rem; }
+  nav a {
+    float: left;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    display: block;
+    width: 1.4rem;
+    margin-right: 0.42rem;
+    color: #333;
+    font-size: 0.34rem;
+    text-align: justify; }
+
+#main {
+  padding-left: 0.32rem;
+  padding-top: 0.6rem; }
+  #main dl {
+    min-height: 3.28rem;
+    width: 3.33rem;
+    margin-right: 0.19rem;
+    margin-bottom: 0.15rem;
+    float: left;
+    font-size: 0.32rem;
+    position: relative; }
+    #main dl i {
+      display: block;
+      width: 0.54rem;
+      height: 0.54rem;
+      position: absolute;
+      left: 1.395rem;
+      top: 0.93rem;
+      background: url(/app/Home/Public/img/dance_works/play.png) no-repeat;
+      background-size: 100% 100%; }
+    #main dl .yuan {
+      display: none;
+      width: 0.56rem;
+      height: 0.56rem;
+      border-radius: 50%;
+      background: #fff;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 3; }
+      #main dl .yuan em {
+        position: absolute;
+        left: 0.07rem;
+        display: block;
+        display:none;
+        top: 0.255rem;
+        width: 0.42rem;
+        height: 0.05rem;
+        background: #c61d0b; }
+    #main dl img {
+      height: 2.4rem;
+      width:3.33rem; }
+    #main dl dd {
+      min-height: 0.36rem; }
+.active{
+	border-bottom:0.06rem solid #bdbdbd;
+}

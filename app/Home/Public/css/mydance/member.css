@@ -1,0 +1,216 @@
+html, body {
+  background: #f5f5f5; }
+
+#mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  opacity: 0.5;
+  z-index: 10;
+  display: none; }
+#header{
+	display:none;
+}
+h2 {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.38rem;
+  color: #272727;
+  text-align: center;
+  width: 7.5rem;
+  position: relative; }
+  h2 span {
+    display: block;
+    height: 0.7rem;
+    width: 0.8rem;
+    float: right;
+    position: absolute;
+    right: 0.42rem;
+    top: 0;
+    font-size: 0.24rem;
+    padding-top: 0.3rem; }
+    h2 span i {
+      display: block;
+      width: 0.56rem;
+      height: 0.5rem;
+      background: url(/app/Home/Public/img/member/sign.png) no-repeat;
+      position: absolute;
+      left: 0.12rem;
+      top: 0.12rem;
+      background-size: 100% 100%; }
+
+.list li {
+  height: 1.2rem;
+  padding-left: 0.32rem;
+  background: #fff;
+  padding-right: 0.42rem;
+  color: #272727;
+  font-size: 0.28rem; }
+  .list li .yuan {
+    width: 0.42rem;
+    height: 0.42rem;
+    display:none;
+    border-radius: 50%;
+    background: #fff;
+    float: left;
+    margin: 0.39rem 0.12rem 0 0;
+    border: 1px solid #999;
+    position: relative; }
+    .list li .yuan .dui {
+      display: block;
+      display:none;
+      width: 0.31rem;
+      height: 0.2rem;
+      position: absolute;
+      background: url(/app/Home/Public/img/member/dui.png) no-repeat;
+      background-size: 100% 100%;
+      top: 0.11rem;
+      left: 0.055rem; }
+  .list li .head {
+    width: 1.02rem;
+    height: 1.02rem;
+    background: url(/app/Home/Public/img/member/header.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0.09rem; }
+  .list li .nick {
+    float: left;
+    width: 5rem;
+    height: 1.2rem;
+    margin-left: 0.1rem; }
+    .list li .nick p {
+      height: 0.35rem;
+      line-height: 0.35rem;
+      color: #666;
+      font-size: 0.28rem; }
+  .list li .junk {
+    float: left;
+    width: 0.57rem;
+    height: 0.57rem;
+    margin-top: 0.53rem;
+    background: url(/app/Home/Public/img/member/delete.png) no-repeat;
+    background-size: 100% 100%;
+    display: none; }
+.list .more {
+  line-height: 1.2rem; }
+  .list .more i {
+    display: inline-block;
+    height: 0.79rem;
+    width: 0.79rem;
+    background: url(/app/Home/Public/img/member/jia.png) no-repeat;
+    background-size: 100% 100%;
+    margin-right: 0.14rem;
+    margin-top: 0.205rem;
+    float: left; }
+.list .jiesan {
+  margin: 0.82rem auto;
+  display: block;
+  width: 2.68rem;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  text-align: center;
+  font-size: 0.38rem;
+  color: #fff;
+  background: url(/app/Home/Public/img/member/btn.png) no-repeat;
+  background-size: 100% 100%; }
+
+.true {
+  width: 7.5rem;
+  height: 2.64rem;
+  position: fixed;
+  top: 3.52rem;
+  left: 0;
+  display:none;
+  background: #fff;
+  z-index: 11; }
+  .true p {
+    height: 1.22rem;
+    line-height: 1.22rem;
+    text-align: center;
+    color: #272727;
+    font-size: 0.38rem; }
+  .true span {
+    width: 2.24rem;
+    height: 0.88rem;
+    display: block;
+    position: absolute;
+    background: url(/app/Home/Public/img/member/smabtn.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 0.88rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.4rem; }
+  .true .yes {
+    right: 0.7rem;
+    bottom: 0.45rem; }
+  .true .esc {
+    left: 0.7rem;
+    bottom: 0.45rem; }
+.shan {
+  width: 7.5rem;
+  height: 2.64rem;
+  position: fixed;
+  top: 3.52rem;
+  left: 0;
+  display:none;
+  background: #fff;
+  z-index: 11; }
+  .shan p {
+    height: 1.22rem;
+    line-height: 1.22rem;
+    text-align: center;
+    color: #272727;
+    font-size: 0.38rem; }
+  .shan span {
+    width: 2.24rem;
+    height: 0.88rem;
+    display: block;
+    position: absolute;
+    background: url(/app/Home/Public/img/member/smabtn.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 0.88rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.4rem; }
+  .shan .yes_two {
+    right: 0.7rem;
+    bottom: 0.45rem; }
+  .shan .esc_two {
+    left: 0.7rem;
+    bottom: 0.45rem; }
+  .jie {
+  width: 7.5rem;
+  height: 2.64rem;
+  position: fixed;
+  top: 3.52rem;
+  left: 0;
+  display:none;
+  background: #fff;
+  z-index: 11; }
+  .jie p {
+    height: 1.22rem;
+    line-height: 1.22rem;
+    text-align: center;
+    color: #272727;
+    font-size: 0.38rem; }
+  .jie span {
+    width: 2.24rem;
+    height: 0.88rem;
+    display: block;
+    position: absolute;
+    background: url(/app/Home/Public/img/member/smabtn.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 0.88rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.4rem; }
+  .jie .yes_three {
+    right: 0.7rem;
+    bottom: 0.45rem; }
+  .jie .esc_three {
+    left: 0.7rem;
+    bottom: 0.45rem; }
